@@ -45,7 +45,7 @@ def deposita (saldo, extrato):
             extrato += f"Depósito: R$ {valor_deposito:.2f} \n"
             return saldo, extrato
         else:
-            print("Valor inválido. Tente novamente")
+            print("Valor inválido. Tente novamente.")
             print("================================")
             continue
 
